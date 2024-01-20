@@ -20,8 +20,7 @@
 # SOFTWARE.
 #
 
-# FROM --platform=$TARGETOS/$TARGETARCH ghcr.io/graalvm/jdk-community:17
-FROM ghcr.io/graalvm/jdk-community:17
+FROM --platform=$TARGETOS/$TARGETARCH ghcr.io/graalvm/jdk-community:17
 
 LABEL author="Maki" maintainer="maki@hotmilk.space"
 
