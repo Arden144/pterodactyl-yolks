@@ -20,7 +20,7 @@
 # SOFTWARE.
 #
 
-FROM container-registry.oracle.com/graalvm/jdk-ee:ol9-java17
+FROM --platform=$TARGETOS/$TARGETARCH container-registry.oracle.com/graalvm/jdk-ee:ol9-java17
 
 LABEL author="Maki" maintainer="maki@hotmilk.space"
 
